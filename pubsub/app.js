@@ -17,4 +17,10 @@ app.use(express.json());
 //request goes through each middleware. Each has request and response.
 app.post('/', badges.save, badges.send);
 
-app.listen(8080);
+app.get('/badges', badges.get);
+
+
+
+app.listen(8080, function() {
+	console.log("your server is listening.");
+});
