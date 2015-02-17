@@ -7,7 +7,7 @@
 
 $(function(){
 	//connects to the same host the browser loaded from
-	var socket = io.connect();
+	var socket = io.connect('http://node-soup.herokuapp.com:80');
 
 	socket.on('badge', function(badge) {
 		//getting singular badges from the array iteration.
