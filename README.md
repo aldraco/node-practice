@@ -8,3 +8,6 @@ Visit http://localhost:3000 to see the badges propogate realtime.
 
 TODO:
 fix formatting of images. 
+
+
+MAKING A CHANGE
